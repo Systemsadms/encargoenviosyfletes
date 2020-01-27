@@ -1,0 +1,363 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{	
+	background-image: url("../img/banner.jpg");
+	background-repeat:no-repeat;
+	/*background-size:100% 650px;*/
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+}
+
+h3{
+	color: #f95908;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.imgSize{
+	background-image: url("../img/ver-mas.jpg");
+	background-size:100% 400px;
+	height: 400px;
+}
+
+.imgSizeAereo{
+	background-image: url("../img/aereo.jpg");
+	background-size:100% 400px;
+	height: 400px;
+}
+
+.imgSizeMaritimo{
+	background-image: url("../img/maritimo.jpg");
+	background-size:100% 400px;
+	height: 400px;
+}
+
+.imgSizePuerta{
+	background-image: url("../img/puerta-a-puerta.jpg");
+	background-size:100% 400px;
+	height: 400px;
+}
+
+
+.caja-banner{
+
+	min-height: 550px;
+
+}
+
+.caja-banner-contenido{
+	width: 600px; 
+	height: 500px; 
+	float: right; 
+	background-color: none; 
+	margin-top: 100px; 
+	margin-right: 5%;
+}
+
+.caja-banner h1{
+	color: white;
+	font-size: 70px;
+}
+
+.caja-banner h3{
+	color: white;
+	font-size: 40px;
+}
+
+.button{
+	border-radius: 5px;
+	background-color: #f95908;
+	height: 40px;
+	width: 150px;
+	border:none;
+	color: white;
+	font-size: 20px
+}
+
+
+
+
+.enviosVenezuela{
+	height: 300px;
+	background-color: white;
+}
+
+.econmiendasDesktop{
+	display: show;
+}
+
+.econmiendasMovil{
+	display: none;
+}
+
+
+.componente-envios{
+	background-color: none;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+
+.tusEncomiendas{
+	background-color:white; 
+	height: 300px;
+}
+
+.componente-loLLevamos{
+	background-color: none;
+	text-align: center;
+	margin-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+
+.componente-loLLevamos h3{
+	color: #f95908;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+
+.componente-envios-img{
+	background-image: url("../img/img1.jpg");
+	background-size: 100% 100%;
+}
+
+.componente-envios-img2{
+	background-image: url("../img/img2.jpg");
+	background-size: 100% 100%;
+}
+
+
+.serv-air{
+	background-color: none;
+	width: 300px;
+	height: 450px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.serv-maritime{
+	background-color: none;
+	width: 300px;
+	height: 450px;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.serv-puertaPuerta{
+	background-color: none;
+	width: 300px;
+	height: 450px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.paso1Boot{
+	background-color:white; 
+	height: 300px; 
+	p
+}
+
+.paso1{
+	background-color: none;
+	width: 300px;
+	height: 300px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.paso2{
+	background-color: none;
+	width: 300px;
+	height: 300px;
+	margin:0 auto;
+	text-align: center;
+}
+
+
+.paso3Boot{
+	background-color:white; 
+	height: 300px;  
+	
+}
+
+
+.paso3{
+	background-color: none;
+	width: 300px;
+	height: 300px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.formulario{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.redes{
+	padding-left: 20px;
+	padding-top: 50px;
+}
+
+.fondo-mozaico{
+	background-image: url("../img/mozaico.jpg");
+	background-size: 100% 100%;
+}
+
+
+
+.footerDir{
+	color: #fa5907;
+	background-color:#152475; 
+	height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:560px){
+
+.enviosVenezuela{
+	height: 350px;
+	background-color: white;
+}
+
+.tusEncomiendas{
+	background-color:white; 
+	height: 230px;
+}
+
+.serv-puertaPuerta{
+	margin-top: 80px;
+}
+
+
+.econmiendasDesktop{
+	display: none;
+}
+
+.econmiendasMovil{
+	display: inline-block;
+}
+
+
+
+.paso1Boot{
+	height: 300px; 
+	padding-left: 0px;
+}
+
+
+.paso2{
+	background-color: none;
+	width: 300px;
+	height: 300px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.paso3{
+	background-color: none;
+	width: 300px;
+	height: 300px;
+	margin:0 auto;
+	text-align: center;	
+}
+
+.paso3Boot{
+	height: 350px;  
+	padding-right: 0px;
+	background-color: none;
+	padding-top: 30px;
+}
+
+
+}
+
+li{
+	text-align: center;
+}
+
+@media (max-width:700px){
+
+
+
+body{	
+	background-color: none;
+	/*background-image: url("../img/pequeno.jpg");*/
+	background-repeat:no-repeat;
+	/*background-size:100% 650px;*/
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+}
+
+
+
+	.footerDir{
+		/*background-color:#152475;*/
+		background-color: #152475; 
+		height: 200px;
+		color: #fa5907;
+	}
+
+	.caja-banner h1{
+		font-size: 35px;
+	}
+
+	.caja-banner h3{
+	color: white;
+	font-size: 25px;
+
+}
+
+	.caja-banner-contenido{
+	width: auto; 
+	height: 500px; 
+	float: left; 
+	background-color: none; 
+	margin-top: 150px; 
+	margin-right: 5%;
+}
+
+	.imgSize{
+	background-image: url("../img/ver-mas.jpg");
+	background-size:100% 300px;
+	height: 300px;
+}
+
+	.imgSizeAereo{
+	background-image: url("../img/aereo.jpg");
+	background-size:100% 400px;
+	height: 300px;
+}
+
+.imgSizeMaritimo{
+	background-image: url("../img/maritimo.jpg");
+	background-size:100% 400px;
+	height: 300px;
+}
+
+.imgSizePuerta{
+	background-image: url("../img/puerta-a-puerta.jpg");
+	background-size:100% 400px;
+	height: 300px;
+}
+}
